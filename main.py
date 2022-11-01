@@ -20,6 +20,7 @@ def main():
     print(F"Reverse string '{test3}' with range: {revert.revert_range(test3)}")
 
     array = ['a', 1, 'b', 2, 'c', 8]
+
     print(F"\nReverse array {array} with slice: {revert.revert_slice(array)}")
     print(F"Reverse array {array} with arr slice: {revert.revert_arr_slice(array)}")
 
