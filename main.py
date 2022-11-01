@@ -4,7 +4,7 @@ import task3 as revert
 import task5
 
 
-def test():
+def main():
     test1a = 'some stringaA'
     print(F"Count 'a' in string '{test1a}': {task1.count_letter('a', test1a)}")
 
@@ -17,6 +17,7 @@ def test():
     test3 = "Some text here"
     print(F"\nReverse string '{test3}' with arr slice: {revert.revert_arr_slice(test3)}")
     print(F"Reverse string '{test3}' with slice: {revert.revert_slice(test3)}")
+    print(F"Reverse string '{test3}' with range: {revert.revert_range(test3)}")
 
     array = ['a', 1, 'b', 2, 'c', 8]
     print(F"\nReverse array {array} with slice: {revert.revert_slice(array)}")
@@ -28,4 +29,4 @@ def test():
 
 
 if __name__ == "__main__":
-    test()
+    main()
